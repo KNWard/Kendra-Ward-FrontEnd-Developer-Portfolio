@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/5099dce4b2.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kendra Ward Frontend Developer Portfolio</title>
+  </head>
+
+  <body>
+    <!-- HERO SECTION AND NAVIGATION -->
+    <section class="hero" id="hero">
+      <nav class="nav-container" id="nav-container">
+        <div class="nav" id="nav">
+          <a href="#hero" class="myLogo"><img src="./src/images/logoWhiteBg.png" class="myLogoImg" alt="Kendra Ward Logo"></a>
+          <a href="#hero" class="nav-link">Home</a>
+          <a href="#about-me" class="nav-link">About me</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact-me" class="nav-link">Contact</a>
+        </div>
+      </nav>
+      <div class="hero-area">
+        <div class="hero-text">
+          <h1 class="name-container">
+            <span>K</span>
+            <span>E</span>
+            <span>N</span>
+            <span>D</span>
+            <span>R</span>
+            <span>A</span>
+            <span>&nbsp;W</span>
+            <span>A</span>
+            <span>R</span>
+            <span>D</span>
+          </h1>
+          <p class="typing">Frontend Developer</p>
+          <div class="button"><a href="#projects">View My Work</a></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section class="sub-section" id="about-me">
+      <div class="sub-section-inner">
+        <h2>About Me</h2>
+        <div class="information">
+          <p>
+            Hello! I'm Kendra Ward, a commited and enthusiastic frontend web developer with a passion for building strong and responsive websites. I have developed my skills through various personal projects, utilizing technologies such as HTML, CSS, JavaScript and Bootstrap. I have an eagerness to continue learning all that I can to stay up to date with new technologies and to build upon my skill set. I look forward to the future and am excited about the opportunities to work and collaborate on innovative projects.
+          </p>
+        </div>
+        <div class="skills-container">
+          <h3 id="skills-title">Skills</h3>
+          <ul class="flex-container">
+            <li class="skills-icon">
+              <i class="fab fa-html5 fa-lg"></i>
+            </li>
+            <li class="skills-icon">
+              <i class="fab fa-css3-alt fa-lg"></i>
+            </li>
+            <li class="skills-icon">
+              <i class="fab fa-js-square fa-lg"></i>
+            </li>
+            <li class="skills-icon">
+              <i class="fab fa-git-alt fa-lg"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- PROJECTS SECTION -->
+    <section class="sub-section-alternative" id="projects">
+      <h2>Projects</h2>
+      <div class="project-container">
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="src/images/restaurantprojectheadshot.jpg"
+            alt="Restaurant Landing Page Image"
+          />
+          <h3>
+            <button class="project-link" id="project-link-one">Restaurant Landing Page</button>
+            <i class="fa-solid fa-arrow-up-right-from-square" id="arrow"></i>
+          </h3>
+        </div>
+
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="src/images/todoappheadshot.jpg"
+            alt="To Do App Image"
+          />
+          <h3>
+            <button class="project-link" id="project-link-two">To Do App</button>
+            <i class="fa-solid fa-arrow-up-right-from-square" id="arrow"></i>
+          </h3>
+        </div>
+
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="src/images/technicaldocumentationheadshot.png"
+            alt="Technical Documentation Page Project Image"
+          />
+          <h3>
+            <button class="project-link" id="project-link-three">Tecnical Documentation Page</button>
+            <i class="fa-solid fa-arrow-up-right-from-square" id="arrow"></i>
+          </h3>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="src/images/finalprojectheadshot.jpg"
+            alt="Nova Butters Landing Page Image"
+          />
+          <h3>
+            <button class="project-link" id="project-link-four">General Assembly Final Project</button>
+            <i class="fa-solid fa-arrow-up-right-from-square" id="arrow"></i>
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS MODAL SECTION -->
+    <section id="modal-container">
+<!-- FIRST PROJECT MODAL -->
+      <div id="myModalOne" class="modal">
+        <div class="modal-content">
+          <span onclick="document.getElementById('myModalOne').style.display='none'" class="close">&times;</span>
+          <div class="modal-content-info">
+            <img src="src/images/restaurantprojectheadshot.jpg" alt="">
+            <div class="modal-content-info-text">
+              <h3>Restaurant Landing Page</h3>
+              <p>
+                Order Order is the first solo project built after I completed the General Assemby Frontend Development bootcamp. A restaurant landing page built using semantic HTML5, CSS, JavaScript and Bootstrap in Visual Studio Code. It is responsive to various screen sizes, with the top navigation switching to a full width side navigation on click.
+              </p>
+              <a class="modal-btn" href="https://orderorderrestaurant.netlify.app/" target="_blank">view live site &gt;</a>
+              <a class="modal-btn" href="https://github.com/KNWard/Restaurant-Landing-Page-Project" target="_blank">github repository &gt;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- SECOND PROJECT MODAL -->
+      <div id="myModalTwo" class="modal">
+        <div class="modal-content">
+          <span onclick="document.getElementById('myModalTwo').style.display='none'" class="close">&times;</span>
+          <div class="modal-content-info">
+            <img src="src/images/todoappheadshot.jpg" alt="">
+            <div class="modal-content-info-text">
+              <h3>To Do App</h3>
+              <p>
+                Check Me Off is a CRUD app allowing users to add, check off and delete task. The app was built using semantic HTML5, CSS and JavaScript in Visual Studio Code. The app also has a dark and light mode feature.
+              </p>
+              <a class="modal-btn" href="https://checkmeoff.netlify.app/" target="_blank">view live site &gt;</a>
+              <a class="modal-btn" href="https://github.com/KNWard/To-Do-App-" target="_blank">github repository &gt;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- THIRD PROJECT MODAL -->
+      <div id="myModalThree" class="modal">
+        <div class="modal-content">
+          <span onclick="document.getElementById('myModalThree').style.display='none'" class="close">&times;</span>
+          <div class="modal-content-info">
+            <img src="src/images/technicaldocumentationheadshot.png" alt="">
+            <div class="modal-content-info-text">
+              <h3>Technical Documentation Page</h3>
+              <p>
+                This project was built for the FreeCodeCamp Responsive Web Design Certification. An example page was given, then coders were tasked to replicate the exmple page using the topic and styling of their choice. The CSS documentation was gathered from W3 Schools. Through this project, I was able to learn about and use responsive sidebar navigation for the firt time.
+              </p>
+              <a class="modal-btn" href="https://spiffy-yeot-ce3bcd.netlify.app/" target="_blank">view live site &gt;</a>
+              <a class="modal-btn" href="https://github.com/KNWard/Technical-Documentation-Page-Project" target="_blank">github repository &gt;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FOURTH PROJECT MODAL -->
+      <div id="myModalFour" class="modal">
+        <div class="modal-content">
+          <span onclick="document.getElementById('myModalFour').style.display='none'" class="close">&times;</span>
+          <div class="modal-content-info">
+            <img src="src/images/finalprojectheadshot.jpg" alt="">
+            <div class="modal-content-info-text">
+              <h3>General Assembly Final Project</h3>
+              <p>
+                This project was built for the FreeCodeCamp Responsive Web Design Certification. An example page was given, then coders were tasked to replicate the exmple page using the topic and styling of their choice. The CSS documentation was gathered from W3 Schools. Through this project, I was able to learn about and use responsive sidebar navigation for the firt time.
+              </p>
+              <a class="modal-btn" href="https://novabutters.netlify.app/" target="_blank">view live site &gt;</a>
+              <a class="modal-btn" href="https://github.com/KNWard/General-Assembly-Final-Project" target="_blank">github repository &gt;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer id="contact-me">
+      <h2>Contact Me</h2>
+      <div class="form-container">
+        <form class="form" action="https://formsubmit.co/kendra.ward223@gmail.com" method="POST">
+          <input type="text" name="name" placeholder="Name" required /><br />
+          <input type="email" name="email" placeholder="Email@.com" required /><br />
+          <textarea type="text" name="message" placeholder="write your message here..." required></textarea><br />
+          <button type="submit">Submit</button>
+        </form>
+
+        <div class="form-socials">
+          <div class="socials">
+            <a href="https://github.com/KNWard" target="_blank" class="social">
+              <i class="fab fa-github" id="social-links"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/kendra-ward" target="_blank" class="social">
+              <i class="fab fa-linkedin" id="social-links"></i>
+            </a>
+            <a href="https://kendrawardresume-pdf.tiiny.site" target="_blank" class="social">
+              <i class="fas fa-file" id="social-links"></i>
+            </a>
+            
+          </div>
+          <p class="copyright">Kendra Ward &copy;2024</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
+
